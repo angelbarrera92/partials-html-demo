@@ -1,0 +1,31 @@
+.hero {
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80vh;
+
+    &__title {
+        font-family: $roboto-slab;
+        text-transform: uppercase;
+        color: $white;
+    }
+    &__title-2 {
+        font-family: $roboto;
+        color: $white;
+    }
+}
+
+.scroll-down {
+    background-color: $white;
+    height: 50px;
+    width: 50px;
+}

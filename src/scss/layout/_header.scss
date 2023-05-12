@@ -1,0 +1,14 @@
+.header {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    background-color: $medium-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__menu {
+        width: 28px;
+        height: 28px;
+        
+    }
+}

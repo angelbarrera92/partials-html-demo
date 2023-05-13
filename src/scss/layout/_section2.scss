@@ -1,0 +1,46 @@
+.section2 {
+    background-color: $ice-blue;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 50px 150px 150px 150px 100px;
+    
+}
+
+.title2 {
+    font-family: $roboto-slab;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top: 30px;
+    
+
+}
+
+.reason {
+    font-family: $roboto-slab;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding:10px 50px 10px 50px;
+
+    &__explain {
+        font-family: $roboto;
+        text-align: center;
+        line-height: 25px; 
+        padding: 5px 80px 0px 80px;
+        
+    }
+}
+
+.button2 {
+    height: 45px;
+    width: 180px;
+    color: $white;
+    font-family: $roboto;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: $orange;
+    border: none;
+    border-radius: 25px;
+}

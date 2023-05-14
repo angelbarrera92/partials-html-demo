@@ -1,0 +1,50 @@
+.footer {
+    height: 480px;
+    background-color: $dark-blue;
+    
+}
+
+.containerbutton {
+    display: flex;
+    align-items: center;
+}
+
+.buttonfooter {
+    background-color: $white;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-20px);
+    
+}
+
+.boxfooter {
+    margin-top: 25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.list1, .list2, .link {
+    text-align: center;
+    color: $white;
+    text-transform: uppercase;
+    font-family: $roboto;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.list3 {
+    text-align: center;
+    color: $white;
+    font-family: $roboto;
+    line-height: 25px;
+}
+
+.iconspan {
+    color: $orange;
+}

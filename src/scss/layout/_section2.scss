@@ -39,7 +39,10 @@
         
     }
 }
-
+.container_button {
+    display: grid;
+    align-content: center;
+}
 .button2 {
     height: 45px;
     width: 180px;
@@ -50,6 +53,8 @@
     background-color: $orange;
     border: none;
     border-radius: 25px;
-    margin-top: 35px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
     
 }

@@ -1,11 +1,19 @@
 .section1 {
     background-color: $white;
-    height: 400px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    @media screen and (min-width: 768px) {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    @media screen and (min-width: 1280px)  {
+        margin-left: 350px;
+        margin-right: 350px;
+    }
     
     
 }
@@ -14,18 +22,37 @@
     color: $light-blue;
     font-size: 15px;
     font-family: $roboto;
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+    }
+    @media screen and (min-width: 1280px) {
+        font-size: 17px;
+    }
 }
 .titlesection {
-    line-height: 40px;
-    font-size: 25px;
+    line-height: 35px;
+    font-size: 20px;
     font-family: $roboto-slab;
     font-weight: bold;
     text-transform: capitalize;
+    margin-top: 8px;
+    @media screen and (min-width: 768px) {
+        font-size: 25px;
+        margin-top: 12px;
+    }
+    @media screen and (min-width: 1280px) {
+        font-size: 30px;
+    }
 }
 .description {
     font-size: 18px;
     font-family: $roboto;
-    line-height: 25px;
+    line-height: 30px;
+    
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+        max-width: 700px;
+    }
 }
 .button1 {
     height: 45px;
@@ -37,4 +64,10 @@
     background-color: $white;
     border: solid 2px $orange;
     border-radius: 25px;
+    @media screen and (min-width: 768px) {
+        width: 100px;
+    }
+    @media screen and (min-width: 1280px) {
+        width: 160px;
+    }
 }

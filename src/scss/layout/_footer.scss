@@ -1,11 +1,11 @@
 .footer {
-    height: 480px;
     background-color: $dark-blue;
     
 }
 
 .containerbutton {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -15,17 +15,25 @@
     width: 45px;
     border-radius: 50%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     transform: translateY(-20px);
     
 }
 
-.boxfooter {
+.box-list {
     display:flex;
     flex-direction: column;
     align-items: center;
-    gap: 35px;
+    gap: 45px;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: center;
+        gap: 130px;
+        padding: 40px 25px 40px 25px;
+        align-items: flex-start;
+    }
 }
 
 .list1, .list2, .link {
@@ -35,6 +43,11 @@
     font-family: $roboto;
     line-height: 28px;
     text-decoration: none;
+    @media screen and (min-width: 768px){
+        text-align: start;
+        
+    }
+
 }
 
 .list3 {
@@ -42,6 +55,10 @@
     color: $white;
     font-family: $roboto;
     line-height: 25px;
+    @media screen and (min-width: 768px){
+        order: -1;
+        text-align: start;
+    }
 }
 
 .iconspan {

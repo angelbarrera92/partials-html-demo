@@ -1,9 +1,5 @@
 .section2 {
     background-color: $ice-blue;
-    height: 700px;
-    @media screen and (min-width: 768px) {
-        height: 430px;
-    }
     
 }
 
@@ -22,15 +18,14 @@
 .reasons {
     display: grid;
     justify-items: center;
-    align-items: center;
     grid-template-rows: 150px 150px 150px;
-    margin-left: 70px;
-    margin-right: 70px;
+    padding: 0px 70px 70px 70px;
     @media screen and (min-width: 768px) {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 2fr;
-        column-gap: 30px;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 40px;
         margin-top: 60px;
+        padding-bottom: 50px;
     }
 }
 
@@ -40,7 +35,7 @@
     font-size: 18px;
     text-align: center;
     @media screen and (min-width: 768px) {
-        font-size: 24px;
+        font-size: 23px;
     }
 
     &__explain {
@@ -49,8 +44,11 @@
         line-height: 30px; 
         padding-top: 5px;
         @media screen and (min-width: 768px) {
-            font-size: 20px;
-            line-height: 35px;
+            font-size: 18px;
+            padding-top: 12px;
+        }
+        @media screen and (min-width: 1280px) {
+            font-size: 22px;
         }
     }
 }
@@ -69,10 +67,10 @@
     @media screen and (min-width: 768px) {
         grid-column: span 3;
         width: 200px;
+        margin-top: 50px;
     }
     @media screen and (min-width: 1280px) {
         width: 250px;
-        margin-top: 50px;
     }
     
 }
